@@ -1,0 +1,770 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/home/lenka/Desktop/android/AndroidVkSdkSample/test7/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.1.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="3e04ac8ca644ea7baddf6fdcf72e15c79e9df94a">
+        <dex dex="/home/lenka/Desktop/android/AndroidVkSdkSample/test7/build/intermediates/pre-dexed/debug/com.android.support-support-core-ui-25.1.1_55cba550ab6c5a4486d018008250f6d2478523c4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/lenka/Desktop/android/AndroidVkSdkSample/vkclient/build/intermediates/exploded-aar/com.android.support/design/25.1.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="cd7951e04cfb9a8bf008d544a478d9a8d8192d38">
+        <dex dex="/home/lenka/Desktop/android/AndroidVkSdkSample/vkclient/build/intermediates/pre-dexed/debug/com.android.support-design-25.1.1_5bacbf0659a78f0d57d4bdf5b2887aaa77dc7ca8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/lenka/Desktop/android/AndroidVkSdkSample/test3/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.1.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0d191c1a09e4892d059e5ce749e4ad4e08129e35">
+        <dex dex="/home/lenka/Desktop/android/AndroidVkSdkSample/test3/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-25.1.1_77eb688ac48d6a226a32aa18a7462c6ac0f4da23.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/lenka/Desktop/android/AndroidVkSdkSample/vkclient/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.3.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="47635644d0d5c103c1dd8360549eb9ba3225c7d3">
+        <dex dex="/home/lenka/Desktop/android/AndroidVkSdkSample/vkclient/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-25.3.1_843ce06e648cae02fe06b39db9ec698163c81915.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/lenka/Desktop/android/AndroidVkSdkSample/test7/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ecb496cc08dd52551fc5ec6db3bc0632e95a89bb">
+        <dex dex="/home/lenka/Desktop/android/AndroidVkSdkSample/test7/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-25.1.1_c565f463c3fd156a0e5d5b68598e3799d38f9edd.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/lenka/Desktop/android/AndroidVkSdkSample/test6/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/25.1.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c9649557905bf7a80fca9e0d54cbcb7662627860">
+        <dex dex="/home/lenka/Desktop/android/AndroidVkSdkSample/test6/build/intermediates/pre-dexed/debug/com.android.support-recyclerview-v7-25.1.1_aef74484ebe624067338eccb805b63f197224e44.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/lenka/Desktop/android/AndroidVkSdkSample/test6/build/intermediates/exploded-aar/com.android.support/support-v4/25.1.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/home/lenka/Desktop/android/AndroidVkSdkSample/test6/build/intermediates/pre-dexed/debug/com.android.support-support-v4-25.1.1_a439bdd0ae42bf4fa9da9dbb85bb9c3f67fb3940.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/lenka/Desktop/android/AndroidVkSdkSample/test7/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/25.1.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c9649557905bf7a80fca9e0d54cbcb7662627860">
+        <dex dex="/home/lenka/Desktop/android/AndroidVkSdkSample/test7/build/intermediates/pre-dexed/debug/com.android.support-recyclerview-v7-25.1.1_4aa7411af77407770e41dad1cc5cfa8c62f2c253.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/lenka/Desktop/android/AndroidVkSdkSample/test3/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.1.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="3e04ac8ca644ea7baddf6fdcf72e15c79e9df94a">
+        <dex dex="/home/lenka/Desktop/android/AndroidVkSdkSample/test3/build/intermediates/pre-dexed/debug/com.android.support-support-core-ui-25.1.1_958ac3a59d3b364f1c103af2147c0eae62da1e08.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/lenka/Desktop/android/AndroidVkSdkSample/test3/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ecb496cc08dd52551fc5ec6db3bc0632e95a89bb">
+        <dex dex="/home/lenka/Desktop/android/AndroidVkSdkSample/test3/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-25.1.1_60514671cdfc1a1509c0d9c94721b38ba2ffcfa5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/lenka/Desktop/android/AndroidVkSdkSample/myapplication/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.1.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0fb891e8f0cfba0513043a7bb357513d229ca2cd">
+        <dex dex="/home/lenka/Desktop/android/AndroidVkSdkSample/myapplication/build/intermediates/pre-dexed/debug/com.android.support-support-core-utils-25.1.1_ffa79959ab56226dfdae8913751712a3729861ac.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/lenka/Desktop/android/AndroidVkSdkSample/myapplication/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.1.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="3e04ac8ca644ea7baddf6fdcf72e15c79e9df94a">
+        <dex dex="/home/lenka/Desktop/android/AndroidVkSdkSample/myapplication/build/intermediates/pre-dexed/debug/com.android.support-support-core-ui-25.1.1_0bbfb3a56cea99cd31867766e966f98c345caf27.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/lenka/Desktop/android/AndroidVkSdkSample/test6/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.1.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0fb891e8f0cfba0513043a7bb357513d229ca2cd">
+        <dex dex="/home/lenka/Desktop/android/AndroidVkSdkSample/test6/build/intermediates/pre-dexed/debug/com.android.support-support-core-utils-25.1.1_2c09ff4dd1181e9148c8fc3d90036dde9376ccaf.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/lenka/Desktop/android/AndroidVkSdkSample/test7/build/intermediates/exploded-aar/com.android.support/design/25.1.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="cd7951e04cfb9a8bf008d544a478d9a8d8192d38">
+        <dex dex="/home/lenka/Desktop/android/AndroidVkSdkSample/test7/build/intermediates/pre-dexed/debug/com.android.support-design-25.1.1_fbb2ce70cf34dcb7830994073fa155105deb4396.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/lenka/Desktop/android/AndroidVkSdkSample/test6/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="5d7deccb56cc0e96a5a8ae8101cce3a249df486f">
+        <dex dex="/home/lenka/Desktop/android/AndroidVkSdkSample/test6/build/intermediates/pre-dexed/debug/instant-run_6c926002f6c9bad6f3009252e45491e943c6f6b8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/lenka/Desktop/android/AndroidVkSdkSample/test6/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.1.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0d191c1a09e4892d059e5ce749e4ad4e08129e35">
+        <dex dex="/home/lenka/Desktop/android/AndroidVkSdkSample/test6/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-25.1.1_e34d05b3a133174d30afc38b5ca2896ca5a824ed.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/lenka/Desktop/android/AndroidVkSdkSample/test6/build/intermediates/exploded-aar/com.android.support/transition/25.1.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="15b049fedbd8e3926bf99d9e45dfc9b2a1043bb9">
+        <dex dex="/home/lenka/Desktop/android/AndroidVkSdkSample/test6/build/intermediates/pre-dexed/debug/com.android.support-transition-25.1.1_0014442f69ebeb32a8409931291eb96c42e41fd4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/lenka/Desktop/android/AndroidVkSdkSample/test7/build/intermediates/exploded-aar/com.android.support/support-fragment/25.1.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e2719c102dca3a7a5b02ce07f769362da6ddb4ab">
+        <dex dex="/home/lenka/Desktop/android/AndroidVkSdkSample/test7/build/intermediates/pre-dexed/debug/com.android.support-support-fragment-25.1.1_b53335f7a3a7d910c816da4a65a12fa87eeed20e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/lenka/Desktop/android/AndroidVkSdkSample/myapplication/build/intermediates/exploded-aar/com.android.support/transition/25.1.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="15b049fedbd8e3926bf99d9e45dfc9b2a1043bb9">
+        <dex dex="/home/lenka/Desktop/android/AndroidVkSdkSample/myapplication/build/intermediates/pre-dexed/debug/com.android.support-transition-25.1.1_24f9cda77d4a4eefeee028c9535aaab5acd55484.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/lenka/Desktop/android/AndroidVkSdkSample/test3/build/intermediates/exploded-aar/com.android.support/transition/25.1.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="15b049fedbd8e3926bf99d9e45dfc9b2a1043bb9">
+        <dex dex="/home/lenka/Desktop/android/AndroidVkSdkSample/test3/build/intermediates/pre-dexed/debug/com.android.support-transition-25.1.1_106a9a5eca906872f6dc17d1c43c45521ec92615.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/lenka/Desktop/android/AndroidVkSdkSample/myapplication/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="dfcea3596d975cb5529e5ae01ae54e0b5f775ae2">
+        <dex dex="/home/lenka/Desktop/android/AndroidVkSdkSample/myapplication/build/intermediates/pre-dexed/debug/instant-run-bootstrap_189c37d3fba63d811a96c2fd873b2acf80421228.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/lenka/Desktop/android/AndroidVkSdkSample/test7/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="02741d05d4b697fba5e279e9881aaa1da0ca7c7f">
+        <dex dex="/home/lenka/Desktop/android/AndroidVkSdkSample/test7/build/intermediates/pre-dexed/debug/com.android.support-support-compat-25.1.1_c45d97973442a6f8be10681a6bfba98ee6f31074.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/lenka/Desktop/android/AndroidVkSdkSample/test7/build/intermediates/exploded-aar/com.android.support/support-fragment/25.1.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e2719c102dca3a7a5b02ce07f769362da6ddb4ab">
+        <dex dex="/home/lenka/Desktop/android/AndroidVkSdkSample/test7/build/intermediates/pre-dexed/debug/com.android.support-support-fragment-25.1.1_b53335f7a3a7d910c816da4a65a12fa87eeed20e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/lenka/Desktop/android/AndroidVkSdkSample/test6/build/intermediates/exploded-aar/com.android.support/support-fragment/25.1.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e2719c102dca3a7a5b02ce07f769362da6ddb4ab">
+        <dex dex="/home/lenka/Desktop/android/AndroidVkSdkSample/test6/build/intermediates/pre-dexed/debug/com.android.support-support-fragment-25.1.1_9564e49c1c2462bd18db0f90292062cf8d1c7942.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/lenka/Desktop/android/AndroidVkSdkSample/test6/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="1ae785d33ed53b4e62b0596d8df181b9eee196b9">
+        <dex dex="/home/lenka/Desktop/android/AndroidVkSdkSample/test6/build/intermediates/pre-dexed/debug/instant-run-bootstrap_d136fca797e41e6965e4b0abf70210109b8e332d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/lenka/Desktop/android/AndroidVkSdkSample/test7/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.1.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0d191c1a09e4892d059e5ce749e4ad4e08129e35">
+        <dex dex="/home/lenka/Desktop/android/AndroidVkSdkSample/test7/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-25.1.1_452eb13b605dfdd9fbe8569f53b2248a5c562d72.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/lenka/Desktop/android/AndroidVkSdkSample/vkclient/build/intermediates/exploded-aar/AndroidVkSdkSample/androidVkSdk/unspecified/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="cb3ecdd6e14792362c7a015c6c1481cc5a01214c">
+        <dex dex="/home/lenka/Desktop/android/AndroidVkSdkSample/vkclient/build/intermediates/pre-dexed/debug/AndroidVkSdkSample-androidVkSdk-unspecified_4400a25642b8ecbf2106efd5aaa3adeb82b3bbcd.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/lenka/Desktop/android/AndroidVkSdkSample/test6/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.1.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="7bde4c34162092e0a77e7f12dc85ed77c484cf5c">
+        <dex dex="/home/lenka/Desktop/android/AndroidVkSdkSample/test6/build/intermediates/pre-dexed/debug/com.android.support-support-media-compat-25.1.1_f9a86d969ac5f2a64f35e5c6e9e42bd0ce269001.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/lenka/Desktop/android/AndroidVkSdkSample/myapplication/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/25.1.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c9649557905bf7a80fca9e0d54cbcb7662627860">
+        <dex dex="/home/lenka/Desktop/android/AndroidVkSdkSample/myapplication/build/intermediates/pre-dexed/debug/com.android.support-recyclerview-v7-25.1.1_ec23fc44a09c86b3a1b94b49eefff38522ef51a0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/lenka/Desktop/android/AndroidVkSdkSample/myapplication/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.1.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c03bf57f358aa10d253f21989e93bcf6014b3b17">
+        <dex dex="/home/lenka/Desktop/android/AndroidVkSdkSample/myapplication/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-25.1.1_0f49d87e9a814c15f1a7a6a72a5b6383a9554a9b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/lenka/Desktop/android/AndroidVkSdkSample/test7/build/intermediates/exploded-aar/com.android.support/transition/25.1.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="15b049fedbd8e3926bf99d9e45dfc9b2a1043bb9">
+        <dex dex="/home/lenka/Desktop/android/AndroidVkSdkSample/test7/build/intermediates/pre-dexed/debug/com.android.support-transition-25.1.1_778663523085d43cdd743f3ede695c9927bff1ba.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/lenka/Desktop/android/AndroidVkSdkSample/test3/build/intermediates/exploded-aar/com.android.support/support-fragment/25.1.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e2719c102dca3a7a5b02ce07f769362da6ddb4ab">
+        <dex dex="/home/lenka/Desktop/android/AndroidVkSdkSample/test3/build/intermediates/pre-dexed/debug/com.android.support-support-fragment-25.1.1_92e93dcdc7c04b3b6893358fa40faad09525978d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/lenka/Desktop/android/AndroidVkSdkSample/vkclient/build/intermediates/exploded-aar/com.android.support/transition/25.1.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="15b049fedbd8e3926bf99d9e45dfc9b2a1043bb9">
+        <dex dex="/home/lenka/Desktop/android/AndroidVkSdkSample/vkclient/build/intermediates/pre-dexed/debug/com.android.support-transition-25.1.1_e32a400a97e31565377d57921276ae8ef59b9847.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/lenka/Desktop/android/AndroidVkSdkSample/test3/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="02741d05d4b697fba5e279e9881aaa1da0ca7c7f">
+        <dex dex="/home/lenka/Desktop/android/AndroidVkSdkSample/test3/build/intermediates/pre-dexed/debug/com.android.support-support-compat-25.1.1_408beb0fe6fac14224298f4aabe2970a4a6cc532.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/lenka/Desktop/android/AndroidVkSdkSample/myapplication/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.1.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="7bde4c34162092e0a77e7f12dc85ed77c484cf5c">
+        <dex dex="/home/lenka/Desktop/android/AndroidVkSdkSample/myapplication/build/intermediates/pre-dexed/debug/com.android.support-support-media-compat-25.1.1_f48ca65fc5d750d93b283ce0ddde076b41ef9be5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/lenka/Desktop/android/AndroidVkSdkSample/vkclient/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.3.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="efb8cb62d47d157c29d1521daac7eefd4cb881ee">
+        <dex dex="/home/lenka/Desktop/android/AndroidVkSdkSample/vkclient/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-25.3.1_7516b5ad53497c196daccecbed972dd62c44c061.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/lenka/Desktop/android/AndroidVkSdkSample/vkclient/build/intermediates/exploded-aar/com.android.support/design/25.1.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="cd7951e04cfb9a8bf008d544a478d9a8d8192d38">
+        <dex dex="/home/lenka/Desktop/android/AndroidVkSdkSample/vkclient/build/intermediates/pre-dexed/debug/com.android.support-design-25.1.1_5bacbf0659a78f0d57d4bdf5b2887aaa77dc7ca8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/lenka/Desktop/android/AndroidVkSdkSample/test6/build/intermediates/exploded-aar/com.android.support/design/25.1.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="cd7951e04cfb9a8bf008d544a478d9a8d8192d38">
+        <dex dex="/home/lenka/Desktop/android/AndroidVkSdkSample/test6/build/intermediates/pre-dexed/debug/com.android.support-design-25.1.1_c314edd200943997b2cf37a6c84ca9575bd99c31.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/lenka/Desktop/android/AndroidVkSdkSample/test3/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.1.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c03bf57f358aa10d253f21989e93bcf6014b3b17">
+        <dex dex="/home/lenka/Desktop/android/AndroidVkSdkSample/test3/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-25.1.1_e07bb8c9ac8baec6f189bb4f835c92fbc6e574d6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/lenka/Desktop/android/AndroidVkSdkSample/test7/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.1.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0fb891e8f0cfba0513043a7bb357513d229ca2cd">
+        <dex dex="/home/lenka/Desktop/android/AndroidVkSdkSample/test7/build/intermediates/pre-dexed/debug/com.android.support-support-core-utils-25.1.1_b7e842731ffd1a4998bf5fdfc87103fd7edb720d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/lenka/Desktop/android/AndroidVkSdkSample/vkclient/build/intermediates/exploded-aar/com.android.support/support-v4/25.3.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/home/lenka/Desktop/android/AndroidVkSdkSample/vkclient/build/intermediates/pre-dexed/debug/com.android.support-support-v4-25.3.1_0dd59479b1e13a74282e9e76fa7ad63d665fb3b4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/lenka/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/25.1.1/support-annotations-25.1.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b59b6ee8d6ecc03e672d253800430343493a6ed8">
+        <dex dex="/home/lenka/Desktop/android/AndroidVkSdkSample/myapplication/build/intermediates/pre-dexed/debug/support-annotations-25.1.1_30e31df10d8793096cc40670c191f3cea5237b52.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/lenka/Desktop/android/AndroidVkSdkSample/test7/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.1.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="7bde4c34162092e0a77e7f12dc85ed77c484cf5c">
+        <dex dex="/home/lenka/Desktop/android/AndroidVkSdkSample/test7/build/intermediates/pre-dexed/debug/com.android.support-support-media-compat-25.1.1_762ae194c914832258ff142ead6f2b46be868eb6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/lenka/Desktop/android/AndroidVkSdkSample/test3/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c952bd512bb32f04dc1538382ac6d6a01e07fb20">
+        <dex dex="/home/lenka/Desktop/android/AndroidVkSdkSample/test3/build/intermediates/pre-dexed/debug/instant-run-bootstrap_934462a5e8987152409be57e431357b5b6ead554.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/lenka/Desktop/android/AndroidVkSdkSample/test7/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ecb496cc08dd52551fc5ec6db3bc0632e95a89bb">
+        <dex dex="/home/lenka/Desktop/android/AndroidVkSdkSample/test7/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-25.1.1_c565f463c3fd156a0e5d5b68598e3799d38f9edd.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/lenka/Desktop/android/AndroidVkSdkSample/myapplication/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.1.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0d191c1a09e4892d059e5ce749e4ad4e08129e35">
+        <dex dex="/home/lenka/Desktop/android/AndroidVkSdkSample/myapplication/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-25.1.1_1d7a83016cda7b01bb3b3943887d87c3962e09d9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/lenka/Desktop/android/AndroidVkSdkSample/test7/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.1.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c03bf57f358aa10d253f21989e93bcf6014b3b17">
+        <dex dex="/home/lenka/Desktop/android/AndroidVkSdkSample/test7/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-25.1.1_6bc214688dd75fb563ea9cc3c0686db6ce504e62.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/lenka/Desktop/android/AndroidVkSdkSample/test3/build/intermediates/exploded-aar/com.android.support/design/25.1.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="cd7951e04cfb9a8bf008d544a478d9a8d8192d38">
+        <dex dex="/home/lenka/Desktop/android/AndroidVkSdkSample/test3/build/intermediates/pre-dexed/debug/com.android.support-design-25.1.1_1952fcb13e0994f0e1e0a5073a1289e7a5e9c5c9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/lenka/Desktop/android/AndroidVkSdkSample/test7/build/intermediates/exploded-aar/com.android.support/design/25.1.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="cd7951e04cfb9a8bf008d544a478d9a8d8192d38">
+        <dex dex="/home/lenka/Desktop/android/AndroidVkSdkSample/test7/build/intermediates/pre-dexed/debug/com.android.support-design-25.1.1_fbb2ce70cf34dcb7830994073fa155105deb4396.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/lenka/Desktop/android/AndroidVkSdkSample/vkclient/build/intermediates/exploded-aar/com.android.support/support-compat/25.3.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="da27a32db6af8954ee8061537c7d476fcb1df46f">
+        <dex dex="/home/lenka/Desktop/android/AndroidVkSdkSample/vkclient/build/intermediates/pre-dexed/debug/com.android.support-support-compat-25.3.1_bda89624f492f5cc647161111d6c2b5b75369ce6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/lenka/Desktop/android/AndroidVkSdkSample/myapplication/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="8d8c58c3713212fa5caa2c6984e167c21d0a098a">
+        <dex dex="/home/lenka/Desktop/android/AndroidVkSdkSample/myapplication/build/intermediates/pre-dexed/debug/instant-run_91dde3dcdaad90573f54dd9effa775d952044dd6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/lenka/Desktop/android/AndroidVkSdkSample/test7/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.1.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="3e04ac8ca644ea7baddf6fdcf72e15c79e9df94a">
+        <dex dex="/home/lenka/Desktop/android/AndroidVkSdkSample/test7/build/intermediates/pre-dexed/debug/com.android.support-support-core-ui-25.1.1_55cba550ab6c5a4486d018008250f6d2478523c4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/lenka/Desktop/android/AndroidVkSdkSample/test7/build/intermediates/exploded-aar/com.android.support/support-v4/25.1.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/home/lenka/Desktop/android/AndroidVkSdkSample/test7/build/intermediates/pre-dexed/debug/com.android.support-support-v4-25.1.1_7434d98439c6469a66d5ce87b8591eb24ca6d96b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/lenka/Desktop/android/AndroidVkSdkSample/test3/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/25.1.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c9649557905bf7a80fca9e0d54cbcb7662627860">
+        <dex dex="/home/lenka/Desktop/android/AndroidVkSdkSample/test3/build/intermediates/pre-dexed/debug/com.android.support-recyclerview-v7-25.1.1_420a18e3d64afb686ef6bcbd4dee34b12baa80f9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/lenka/Desktop/android/AndroidVkSdkSample/test3/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.1.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0fb891e8f0cfba0513043a7bb357513d229ca2cd">
+        <dex dex="/home/lenka/Desktop/android/AndroidVkSdkSample/test3/build/intermediates/pre-dexed/debug/com.android.support-support-core-utils-25.1.1_6563bf6702b9b4fe4c57491851f88621f87950ba.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/lenka/Desktop/android/AndroidVkSdkSample/vkclient/build/intermediates/exploded-aar/AndroidVkSdkSample/supernova-emoji-library/unspecified/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="9a45c51943078fdc11f5640205cc645cb3005367">
+        <dex dex="/home/lenka/Desktop/android/AndroidVkSdkSample/vkclient/build/intermediates/pre-dexed/debug/AndroidVkSdkSample-supernova-emoji-library-unspecified_23d2dfd6f66203ef19f3693318ab3e0ef684b299.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/lenka/Desktop/android/AndroidVkSdkSample/vkclient/build/intermediates/exploded-aar/com.android.support/support-fragment/25.3.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4a26a1154d053ab11aaf4c3967c42a4d66390991">
+        <dex dex="/home/lenka/Desktop/android/AndroidVkSdkSample/vkclient/build/intermediates/pre-dexed/debug/com.android.support-support-fragment-25.3.1_e1dfc55c02148899d286b6888861872691adccef.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/lenka/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/25.3.1/support-annotations-25.3.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="bf8841d29fa39e077730e7a91222c2ce269fa7c9">
+        <dex dex="/home/lenka/Desktop/android/AndroidVkSdkSample/vkclient/build/intermediates/pre-dexed/debug/support-annotations-25.3.1_d63cc055973052f7987a4b7059a0fd13320cb03b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/lenka/Desktop/android/AndroidVkSdkSample/test3/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="cbb4da3f27bbc7abcb365d155ee84a5b33acc711">
+        <dex dex="/home/lenka/Desktop/android/AndroidVkSdkSample/test3/build/intermediates/pre-dexed/debug/instant-run_e6dd964878be3046f749c0e70109bb1d282e09b8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/lenka/Desktop/android/AndroidVkSdkSample/test6/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.1.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c03bf57f358aa10d253f21989e93bcf6014b3b17">
+        <dex dex="/home/lenka/Desktop/android/AndroidVkSdkSample/test6/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-25.1.1_93b92ee28770f6194c4862f50755be77b3fc9eb6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/lenka/Desktop/android/AndroidVkSdkSample/myapplication/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ecb496cc08dd52551fc5ec6db3bc0632e95a89bb">
+        <dex dex="/home/lenka/Desktop/android/AndroidVkSdkSample/myapplication/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-25.1.1_feea7c78fb6aa8adf4c975ba94bb1a41bec7415e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/lenka/Desktop/android/AndroidVkSdkSample/myapplication/build/intermediates/exploded-aar/com.android.support/support-fragment/25.1.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e2719c102dca3a7a5b02ce07f769362da6ddb4ab">
+        <dex dex="/home/lenka/Desktop/android/AndroidVkSdkSample/myapplication/build/intermediates/pre-dexed/debug/com.android.support-support-fragment-25.1.1_902c19624fb1c1c0e84f80de75564a05e611a7a2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/lenka/Desktop/android/AndroidVkSdkSample/test3/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.1.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="7bde4c34162092e0a77e7f12dc85ed77c484cf5c">
+        <dex dex="/home/lenka/Desktop/android/AndroidVkSdkSample/test3/build/intermediates/pre-dexed/debug/com.android.support-support-media-compat-25.1.1_b544555b08443684bde9b84cc1be6236451e7acd.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/lenka/Desktop/android/AndroidVkSdkSample/test7/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.1.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0fb891e8f0cfba0513043a7bb357513d229ca2cd">
+        <dex dex="/home/lenka/Desktop/android/AndroidVkSdkSample/test7/build/intermediates/pre-dexed/debug/com.android.support-support-core-utils-25.1.1_b7e842731ffd1a4998bf5fdfc87103fd7edb720d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/lenka/Desktop/android/AndroidVkSdkSample/vkclient/build/intermediates/exploded-aar/de.hdodenhof/circleimageview/2.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="a2af9c72ccaa4c5c049b500ca6ea664a4ce1f7d4">
+        <dex dex="/home/lenka/Desktop/android/AndroidVkSdkSample/vkclient/build/intermediates/pre-dexed/debug/de.hdodenhof-circleimageview-2.1.0_5d73bbf3efa0fefbc0dc4f82bb5c08197ce308a7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/lenka/Desktop/android/AndroidVkSdkSample/myapplication/build/intermediates/exploded-aar/com.android.support/support-v4/25.1.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/home/lenka/Desktop/android/AndroidVkSdkSample/myapplication/build/intermediates/pre-dexed/debug/com.android.support-support-v4-25.1.1_14a6d8f35e805dc73dd714e955355da43a3e185d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/lenka/Desktop/android/AndroidVkSdkSample/vkclient/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.3.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="45f697922e6f072daa12f8a2995dc77ab03c11da">
+        <dex dex="/home/lenka/Desktop/android/AndroidVkSdkSample/vkclient/build/intermediates/pre-dexed/debug/com.android.support-support-media-compat-25.3.1_6403cd15c733c90bd20701d59dde3d8dbabf7f53.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/lenka/Desktop/android/AndroidVkSdkSample/test7/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/25.1.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c9649557905bf7a80fca9e0d54cbcb7662627860">
+        <dex dex="/home/lenka/Desktop/android/AndroidVkSdkSample/test7/build/intermediates/pre-dexed/debug/com.android.support-recyclerview-v7-25.1.1_4aa7411af77407770e41dad1cc5cfa8c62f2c253.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/lenka/Desktop/android/AndroidVkSdkSample/test6/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="02741d05d4b697fba5e279e9881aaa1da0ca7c7f">
+        <dex dex="/home/lenka/Desktop/android/AndroidVkSdkSample/test6/build/intermediates/pre-dexed/debug/com.android.support-support-compat-25.1.1_99b10559992afc18c23f8a2180dcacb648a9598d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/lenka/Desktop/android/AndroidVkSdkSample/test6/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.1.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="3e04ac8ca644ea7baddf6fdcf72e15c79e9df94a">
+        <dex dex="/home/lenka/Desktop/android/AndroidVkSdkSample/test6/build/intermediates/pre-dexed/debug/com.android.support-support-core-ui-25.1.1_85aa11a385ec611f0dd57a1c33e48bfc04648bad.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/lenka/Desktop/android/AndroidVkSdkSample/vkclient/build/intermediates/exploded-aar/com.android.support/transition/25.1.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="15b049fedbd8e3926bf99d9e45dfc9b2a1043bb9">
+        <dex dex="/home/lenka/Desktop/android/AndroidVkSdkSample/vkclient/build/intermediates/pre-dexed/debug/com.android.support-transition-25.1.1_e32a400a97e31565377d57921276ae8ef59b9847.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/lenka/Desktop/android/AndroidVkSdkSample/test3/build/intermediates/exploded-aar/com.android.support/support-v4/25.1.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/home/lenka/Desktop/android/AndroidVkSdkSample/test3/build/intermediates/pre-dexed/debug/com.android.support-support-v4-25.1.1_348257e295e4d7d84a951648c5e5781b08210270.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/lenka/Desktop/android/AndroidVkSdkSample/test7/build/intermediates/exploded-aar/com.android.support/support-v4/25.1.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/home/lenka/Desktop/android/AndroidVkSdkSample/test7/build/intermediates/pre-dexed/debug/com.android.support-support-v4-25.1.1_7434d98439c6469a66d5ce87b8591eb24ca6d96b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/lenka/Desktop/android/AndroidVkSdkSample/test7/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.1.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0d191c1a09e4892d059e5ce749e4ad4e08129e35">
+        <dex dex="/home/lenka/Desktop/android/AndroidVkSdkSample/test7/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-25.1.1_452eb13b605dfdd9fbe8569f53b2248a5c562d72.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/lenka/Desktop/android/AndroidVkSdkSample/vkclient/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="150252b33b00274cc868578ade018fda0d43a3eb">
+        <dex dex="/home/lenka/Desktop/android/AndroidVkSdkSample/vkclient/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-25.3.1_c742142fc57e3100a92412565814c050594373da.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/lenka/Desktop/android/AndroidVkSdkSample/vkclient/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.3.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6ef31f1555bb4cc513ec8d52711365a8b89f3600">
+        <dex dex="/home/lenka/Desktop/android/AndroidVkSdkSample/vkclient/build/intermediates/pre-dexed/debug/com.android.support-support-core-utils-25.3.1_b0b3ba07d0231d6dcc41d5c28ad5654c54a2a576.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/lenka/Desktop/android/AndroidVkSdkSample/test7/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.1.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="7bde4c34162092e0a77e7f12dc85ed77c484cf5c">
+        <dex dex="/home/lenka/Desktop/android/AndroidVkSdkSample/test7/build/intermediates/pre-dexed/debug/com.android.support-support-media-compat-25.1.1_762ae194c914832258ff142ead6f2b46be868eb6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/lenka/Desktop/android/AndroidVkSdkSample/myapplication/build/intermediates/exploded-aar/com.android.support/design/25.1.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="cd7951e04cfb9a8bf008d544a478d9a8d8192d38">
+        <dex dex="/home/lenka/Desktop/android/AndroidVkSdkSample/myapplication/build/intermediates/pre-dexed/debug/com.android.support-design-25.1.1_941d99ec6f9986e78c200ed22d6f3fcd0f112d8d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/lenka/Desktop/android/AndroidVkSdkSample/test7/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="02741d05d4b697fba5e279e9881aaa1da0ca7c7f">
+        <dex dex="/home/lenka/Desktop/android/AndroidVkSdkSample/test7/build/intermediates/pre-dexed/debug/com.android.support-support-compat-25.1.1_c45d97973442a6f8be10681a6bfba98ee6f31074.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/lenka/Desktop/android/AndroidVkSdkSample/vkclient/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.3.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="052f5f840f21174a3ecf6544130194e2652cbb73">
+        <dex dex="/home/lenka/Desktop/android/AndroidVkSdkSample/vkclient/build/intermediates/pre-dexed/debug/com.android.support-support-core-ui-25.3.1_d897670d58a1f89c9ef3c01671055d1787e9d659.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/lenka/Desktop/android/AndroidVkSdkSample/vkclient/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/25.3.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="95519720620b553f63afc789beba9ad582807f7c">
+        <dex dex="/home/lenka/Desktop/android/AndroidVkSdkSample/vkclient/build/intermediates/pre-dexed/debug/com.android.support-recyclerview-v7-25.3.1_c2f833f70598971ad40567bd3c7f107a817c0ce8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/lenka/Desktop/android/AndroidVkSdkSample/test6/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ecb496cc08dd52551fc5ec6db3bc0632e95a89bb">
+        <dex dex="/home/lenka/Desktop/android/AndroidVkSdkSample/test6/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-25.1.1_a7304d758d8e1df903caf9883c97866948233c46.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/lenka/Desktop/android/AndroidVkSdkSample/test7/build/intermediates/exploded-aar/com.android.support/transition/25.1.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="15b049fedbd8e3926bf99d9e45dfc9b2a1043bb9">
+        <dex dex="/home/lenka/Desktop/android/AndroidVkSdkSample/test7/build/intermediates/pre-dexed/debug/com.android.support-transition-25.1.1_778663523085d43cdd743f3ede695c9927bff1ba.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/lenka/Desktop/android/AndroidVkSdkSample/test7/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.1.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c03bf57f358aa10d253f21989e93bcf6014b3b17">
+        <dex dex="/home/lenka/Desktop/android/AndroidVkSdkSample/test7/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-25.1.1_6bc214688dd75fb563ea9cc3c0686db6ce504e62.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/lenka/Desktop/android/AndroidVkSdkSample/myapplication/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="02741d05d4b697fba5e279e9881aaa1da0ca7c7f">
+        <dex dex="/home/lenka/Desktop/android/AndroidVkSdkSample/myapplication/build/intermediates/pre-dexed/debug/com.android.support-support-compat-25.1.1_46bfd210812ba2ae3f5df6691ae2f6eb26e97978.jar" />
+    </item>
+
+</items>

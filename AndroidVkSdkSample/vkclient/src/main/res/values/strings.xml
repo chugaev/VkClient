@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">VkClient</string>
+    <string name="friends">Друзья</string>
+    <string name="groups">Группы</string>
+    <string name="empty_groups">Вы не состоите ни в одной группе.</string>
+    <string name="empty_friends">У вас нет друзей.</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="messages">Сообщения</string>
+    <string name="empty_dialog">У вас нет диалогов.</string>
+    <string name="empty_messages">У вас нет сообщений с этим пользователем.</string>
+    <string name="profile">Профиль</string>
+</resources>

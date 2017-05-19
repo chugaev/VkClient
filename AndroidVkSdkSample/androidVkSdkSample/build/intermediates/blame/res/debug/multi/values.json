@@ -1,0 +1,64 @@
+[
+    {
+        "outputFile": "/home/lenka/Desktop/android/AndroidVkSdkSample/androidVkSdkSample/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 55,
+                    "endOffset": 106
+                },
+                "from": {
+                    "file": "/home/lenka/Desktop/android/AndroidVkSdkSample/androidVkSdkSample/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 59,
+                        "endColumn": 55,
+                        "endOffset": 110
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 111,
+                    "endColumn": 59,
+                    "endOffset": 166
+                },
+                "from": {
+                    "file": "/home/lenka/Desktop/android/AndroidVkSdkSample/androidVkSdkSample/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 160,
+                        "endColumn": 59,
+                        "endOffset": 215
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 171,
+                    "endColumn": 42,
+                    "endOffset": 209
+                },
+                "from": {
+                    "file": "/home/lenka/Desktop/android/AndroidVkSdkSample/androidVkSdkSample/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 116,
+                        "endColumn": 42,
+                        "endOffset": 154
+                    }
+                }
+            }
+        ]
+    }
+]

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="horizontal"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@android:color/white"
+              android:padding="10dp"
+              android:descendantFocusability="blocksDescendants">
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/imageViewIcon"
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:background="@android:color/white"/>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:descendantFocusability="blocksDescendants">
+        <TextView
+            android:id="@+id/name_dialog"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:maxLines="1"
+            android:inputType="text"
+            android:gravity="center_vertical"
+            android:textColor="@android:color/black"
+            android:background="@android:color/white"
+            android:paddingLeft="4dp"
+            android:clickable="false"
+            android:longClickable="false"/>
+        <TextView
+            android:id="@+id/content_dialog"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:maxLines="1"
+            android:inputType="text"
+            android:gravity="center_vertical"
+            android:textColor="@android:color/black"
+            android:background="@android:color/white"
+            android:paddingLeft="4dp"
+            android:clickable="false"
+            android:longClickable="false"/>
+    </LinearLayout>
+
+</LinearLayout>

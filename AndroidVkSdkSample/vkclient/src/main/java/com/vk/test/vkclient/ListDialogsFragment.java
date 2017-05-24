@@ -14,22 +14,16 @@ import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 import android.widget.TextView;
-import android.widget.Toast;
 import de.hdodenhof.circleimageview.CircleImageView;
-
 import com.perm.kate.api.Api;
 import com.perm.kate.api.Message;
 import com.perm.kate.api.User;
-
 import java.io.InputStream;
 import java.util.ArrayList;
 import java.util.HashMap;
 
-/**
- * Created by lenka on 19.04.17.
- */
-
 public class ListDialogsFragment extends ListFragment {
+
     Account mAccount;
     Api mApi;
 
@@ -37,8 +31,6 @@ public class ListDialogsFragment extends ListFragment {
     ArrayList<String> mStrings = new ArrayList<>();
     ArrayList<Message> mDialogs = null;
     HashMap<Long, User> mUsers = new HashMap<>();
-
-
 
     @Override
     public void onActivityCreated(Bundle savedInstanceState) {
@@ -48,7 +40,6 @@ public class ListDialogsFragment extends ListFragment {
         GetterDialogsTask getterDialogsTask = new GetterDialogsTask();
         getterDialogsTask.execute();
     }
-
 
     @Override
     public void onViewCreated(View view, Bundle savedInstanceState) {
@@ -65,7 +56,6 @@ public class ListDialogsFragment extends ListFragment {
 
     public void onListItemClick(ListView l, View v, int position, long id) {
         super.onListItemClick(l, v, position, id);
-//        Toast.makeText(getActivity(), "position = " + position, Toast.LENGTH_SHORT).show();
         Intent intent = new Intent(getActivity(), MessagesActivity.class);
         intent.putExtra("ID", mIds.get(position));
         if (mDialogs.get(position).title.equals("...")) {
@@ -141,8 +131,6 @@ public class ListDialogsFragment extends ListFragment {
 
         @Override
         public View getView(int position, View convertView, ViewGroup parent) {
-//            super.getView(position, convertView, parent);
-
             LayoutInflater inflater = (LayoutInflater) mContext
                     .getSystemService(Context.LAYOUT_INFLATER_SERVICE);
             View row = inflater.inflate(R.layout.dialog_row, parent, false);

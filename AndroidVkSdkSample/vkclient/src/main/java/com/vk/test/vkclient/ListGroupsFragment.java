@@ -24,8 +24,10 @@ import java.util.ArrayList;
 import de.hdodenhof.circleimageview.CircleImageView;
 
 public class ListGroupsFragment extends ListFragment {
+
     Account mAccount;
     Api mApi;
+
     ArrayList<String> mListNameGroups = null;
     ArrayList<String> mListPhotoGroups = new ArrayList<>();
 
@@ -37,7 +39,6 @@ public class ListGroupsFragment extends ListFragment {
         ListGroupsFragment.GetterGroupsTask getterFriendsTask = new ListGroupsFragment.GetterGroupsTask();
         getterFriendsTask.execute();
     }
-
 
     @Override
     public void onViewCreated(View view, Bundle savedInstanceState) {
@@ -107,8 +108,6 @@ public class ListGroupsFragment extends ListFragment {
 
         @Override
         public View getView(int position, View convertView, ViewGroup parent) {
-            // return super.getView(position, convertView, parent);
-
             LayoutInflater inflater = (LayoutInflater) mContext
                     .getSystemService(Context.LAYOUT_INFLATER_SERVICE);
             View row = inflater.inflate(R.layout.friends_row, parent, false);
@@ -118,7 +117,6 @@ public class ListGroupsFragment extends ListFragment {
             String url = mListPhotoGroups.get(position);
             iconImageView.setImageResource(R.drawable.ic_menu_camera);
             new DownloadImageTask(iconImageView).execute(url);
-            // Присваиваем значок
             return row;
         }
     }

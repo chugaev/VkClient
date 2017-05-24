@@ -4,6 +4,7 @@ import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.os.AsyncTask;
 import android.os.Bundle;
+import android.support.design.widget.NavigationView;
 import android.support.v4.app.Fragment;
 import android.util.Log;
 import android.view.LayoutInflater;
@@ -24,11 +25,14 @@ public class MyProfileFragment extends Fragment {
 
     Account mAccount;
     Api mApi;
+
     User user;
     ImageView mImageProfile;
     TextView mOnlineStatus;
     TextView mName;
     TextView mUserStatus;
+    TextView mNameNav;
+    TextView mUserStatusNav;
 
     @Override
     public void onActivityCreated(Bundle savedInstanceState) {
@@ -37,6 +41,7 @@ public class MyProfileFragment extends Fragment {
         mApi = new Api(mAccount.getAccessToken(), mAccount.getUserId() + "");
         GetterProfileInfoTask getterProfileInfoTask = new GetterProfileInfoTask();
         getterProfileInfoTask.execute();
+
     }
 
     @Override
@@ -48,6 +53,10 @@ public class MyProfileFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.user_profile, container, false);
+        NavigationView navigationView = (NavigationView) getActivity().findViewById(R.id.nav_view);
+        View header = navigationView.getHeaderView(0);
+        mNameNav = (TextView) header.findViewById(R.id.text_nav);
+        mUserStatusNav = (TextView) header.findViewById(R.id.text_status);
         mImageProfile = (ImageView) view.findViewById(R.id.image_profile);
         mOnlineStatus = (TextView) view.findViewById(R.id.online_status);
         mName = (TextView) view.findViewById(R.id.user_name);
@@ -86,7 +95,10 @@ public class MyProfileFragment extends Fragment {
                 mOnlineStatus.setText("Offline");
             }
             mName.setText(user.first_name + " " + user.last_name);
+            mNameNav.setText(user.first_name + " " + user.last_name);
             mUserStatus.setText(user.status);
+            mUserStatusNav.setText(user.status);
+
             new DownloadImageTask(mImageProfile).execute(user.photo_200);
 
             super.onPostExecute(result);

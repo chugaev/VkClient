@@ -14,28 +14,22 @@ import android.widget.ArrayAdapter;
 import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.Toast;
-
 import com.perm.kate.api.Api;
 import com.perm.kate.api.User;
-
 import java.io.InputStream;
 import java.util.ArrayList;
 
 import de.hdodenhof.circleimageview.CircleImageView;
 
-/**
- * Created by lenka on 16.04.17.
- */
-
 public class ListOnlineFriendsFragment extends ListFragment {
+
+    Account mAccount;
+    Api mApi;
 
     static final String ARGUMENT_PAGE_NUMBER = "arg_page_number";
 
     ArrayList<String> mListNameFriends = null;
     ArrayList<String> mListPhotoFriends = new ArrayList<>();
-
-    Account mAccount;
-    Api mApi;
 
     static ListOnlineFriendsFragment newInstance(int page) {
         ListOnlineFriendsFragment pageFragment = new ListOnlineFriendsFragment();
@@ -122,8 +116,6 @@ public class ListOnlineFriendsFragment extends ListFragment {
 
         @Override
         public View getView(int position, View convertView, ViewGroup parent) {
-            // return super.getView(position, convertView, parent);
-
             LayoutInflater inflater = (LayoutInflater) mContext
                     .getSystemService(Context.LAYOUT_INFLATER_SERVICE);
             View row = inflater.inflate(R.layout.friends_row, parent, false);
@@ -133,7 +125,6 @@ public class ListOnlineFriendsFragment extends ListFragment {
             String url = mListPhotoFriends.get(position);
             iconImageView.setImageResource(R.drawable.ic_menu_camera);
             new ListOnlineFriendsFragment.DownloadImageTask(iconImageView).execute(url);
-            // Присваиваем значок
             return row;
         }
     }

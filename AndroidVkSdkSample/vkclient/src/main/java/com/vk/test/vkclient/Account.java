@@ -49,7 +49,6 @@ public class Account {
     
     public void restore(Context context) {
         SharedPreferences prefs = null;
-
         if (context != null) {
             prefs = PreferenceManager.getDefaultSharedPreferences(context);
         } else {

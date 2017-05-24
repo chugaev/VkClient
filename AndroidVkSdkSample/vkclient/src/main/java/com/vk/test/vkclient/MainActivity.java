@@ -47,25 +47,20 @@ public class MainActivity extends AppCompatActivity
         } else {
             startLoginActivity();
         }
-
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
-//        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-
         TabLayout tabLayout = (TabLayout) findViewById(R.id.tabs);
         tabLayout.setVisibility(View.GONE);
-
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
                 this, drawer, toolbar, R.string.navigation_drawer_open, R.string.navigation_drawer_close);
         drawer.addDrawerListener(toggle);
         toggle.syncState();
-
-
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
-
-        //add this line to display menu1 when the activity is loaded
+        View header = navigationView.getHeaderView(0);
+        TextView mUserStatus = (TextView) header.findViewById(R.id.text_status);
+        mUserStatus.setText("123132");
         displaySelectedScreen(R.id.profile);
     }
 
@@ -81,46 +76,29 @@ public class MainActivity extends AppCompatActivity
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
-        // Inflate the menu; this adds items to the action bar if it is present.
         getMenuInflater().inflate(R.menu.main, menu);
         return true;
     }
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
-        // Handle action bar item clicks here. The action bar will
-        // automatically handle clicks on the Home/Up button, so long
-        // as you specify a parent activity in AndroidManifest.xml.
         int id = item.getItemId();
-
-        //noinspection SimplifiableIfStatement
         if (id == R.id.action_settings) {
             Intent intent = new Intent(getBaseContext(), DialogStatsActivity.class);
             startActivity(intent);
             return true;
         }
-
         return super.onOptionsItemSelected(item);
     }
 
     private void displaySelectedScreen(int itemId) {
-
-        //creating fragment object
         Fragment fragment = null;
-
-        //initializing the fragment object which is selected
         switch (itemId) {
             case R.id.profile:
                 fragment = new MyProfileFragment();
                 break;
             case R.id.list_friends:
                 fragment = new PagerForFriends();
-                break;
-            case R.id.nav_menu3:
-                fragment = new Menu3();
-                break;
-            case R.id.nav_menu1:
-                fragment = new Menu1();
                 break;
             case R.id.list_groups:
                 fragment = new ListGroupsFragment();
@@ -129,26 +107,19 @@ public class MainActivity extends AppCompatActivity
                 fragment = new ListDialogsFragment();
                 break;
         }
-
-        //replacing the fragment
         if (fragment != null) {
             FragmentTransaction ft = getSupportFragmentManager().beginTransaction();
             ft.replace(R.id.content_frame, fragment);
             ft.commit();
         }
-
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);
     }
 
-
     @SuppressWarnings("StatementWithEmptyBody")
     @Override
     public boolean onNavigationItemSelected(MenuItem item) {
-
-        //calling the method displayselectedscreen and passing the id of selected menu
         displaySelectedScreen(item.getItemId());
-        //make this method blank
         return true;
     }
 

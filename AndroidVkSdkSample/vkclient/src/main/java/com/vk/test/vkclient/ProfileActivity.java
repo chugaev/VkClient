@@ -23,6 +23,7 @@ public class ProfileActivity extends AppCompatActivity {
 
     Account mAccount;
     Api mApi;
+
     User user;
     ImageView mImageProfile;
     TextView mOnlineStatus;

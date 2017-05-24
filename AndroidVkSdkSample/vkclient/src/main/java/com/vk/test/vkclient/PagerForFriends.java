@@ -18,7 +18,6 @@ import android.view.ViewGroup;
 
 public class PagerForFriends extends Fragment {
 
-
     ViewPager pager;
     PagerAdapter pagerAdapter;
     TabLayout tabLayout;
@@ -49,7 +48,6 @@ public class PagerForFriends extends Fragment {
             public void onPageScrollStateChanged(int state) {
             }
         });
-//        pager.setOffscreenPageLimit(2);
         tabLayout = (TabLayout) getActivity().findViewById(R.id.tabs);
         Log.i("", "onCreateView: " + (tabLayout == null));
         tabLayout.setupWithViewPager(pager);

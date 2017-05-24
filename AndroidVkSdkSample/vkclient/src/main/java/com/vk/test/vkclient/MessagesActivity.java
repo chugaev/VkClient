@@ -62,20 +62,11 @@ public class MessagesActivity extends AppCompatActivity {
                 Log.e("Keyboard", "close");
             }
         });
-
         mRecyclerView = (RecyclerView) findViewById(R.id.my_recycler_view);
-
-        // если мы уверены, что изменения в контенте не изменят размер layout-а RecyclerView
-        // передаем параметр true - это увеличивает производительность
         mRecyclerView.setHasFixedSize(true);
-
-        // используем linear layout manager
         mLayoutManager = new LinearLayoutManager(this);
         mRecyclerView.setLayoutManager(mLayoutManager);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-        // создаем адаптер
-//        mAdapter = new RecyclerAdapter(arrayList);
-//        mRecyclerView.setAdapter(mAdapter);
         GetterMessagesTask getterMessagesTask = new GetterMessagesTask();
         getterMessagesTask.execute();
         final LinearLayoutManager layoutManager = new LinearLayoutManager(this);
@@ -130,6 +121,7 @@ public class MessagesActivity extends AppCompatActivity {
             mRecyclerView.setAdapter(mAdapter);
         }
     }
+
     class SenderMesssages extends AsyncTask<Void, Void, Void> {
 
         String mString;

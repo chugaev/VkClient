@@ -4,7 +4,6 @@ import android.content.Context;
 import android.content.Intent;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
-import android.graphics.Color;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.support.v4.app.ListFragment;
@@ -15,11 +14,8 @@ import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 import android.widget.TextView;
-import android.widget.Toast;
-
 import com.perm.kate.api.Api;
 import com.perm.kate.api.User;
-
 import java.io.InputStream;
 import java.util.ArrayList;
 
@@ -28,14 +24,14 @@ import de.hdodenhof.circleimageview.CircleImageView;
 
 public class ListFriendsFragment extends ListFragment {
 
+    Account mAccount;
+    Api mApi;
+
     static final String ARGUMENT_PAGE_NUMBER = "arg_page_number";
 
     ArrayList<String> mListNameFriends = null;
     ArrayList<String> mListPhotoFriends = new ArrayList<>();
     ArrayList<Long> mIds = new ArrayList<>();
-
-    Account mAccount;
-    Api mApi;
 
     static ListFriendsFragment newInstance(int page) {
         ListFriendsFragment pageFragment = new ListFriendsFragment();
@@ -67,7 +63,6 @@ public class ListFriendsFragment extends ListFragment {
 
     public void onListItemClick(ListView l, View v, int position, long id) {
         super.onListItemClick(l, v, position, id);
-//        Toast.makeText(getActivity(), "position = " + position, Toast.LENGTH_SHORT).show();
         Intent intent = new Intent(getActivity(), ProfileActivity.class);
         intent.putExtra("ID", mIds.get(position));
         startActivity(intent);
@@ -88,7 +83,6 @@ public class ListFriendsFragment extends ListFragment {
         @Override
         protected void onPostExecute(Void result) {
             super.onPostExecute(result);
-
             if (mListNameFriends != null) {
                 MyListAdapter myListAdapter = new MyListAdapter(getActivity(),
                         R.layout.list_friends, mListNameFriends);
@@ -105,7 +99,6 @@ public class ListFriendsFragment extends ListFragment {
         } catch (Exception ex) {
             ex.printStackTrace();
         }
-        Log.i("aasdd", (users == null) + "");
         for (User user : users) {
             arrayList.add(user.first_name + " " + user.last_name);
             mIds.add(user.uid);
@@ -126,8 +119,6 @@ public class ListFriendsFragment extends ListFragment {
 
         @Override
         public View getView(int position, View convertView, ViewGroup parent) {
-            // return super.getView(position, convertView, parent);
-
             LayoutInflater inflater = (LayoutInflater) mContext
                     .getSystemService(Context.LAYOUT_INFLATER_SERVICE);
             View row = inflater.inflate(R.layout.friends_row, parent, false);
@@ -137,7 +128,6 @@ public class ListFriendsFragment extends ListFragment {
             String url = mListPhotoFriends.get(position);
             iconImageView.setImageResource(R.drawable.ic_menu_camera);
             new ListFriendsFragment.DownloadImageTask(iconImageView).execute(url);
-            // Присваиваем значок
             return row;
         }
     }

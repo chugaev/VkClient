@@ -1,21 +1,17 @@
 package com.vk.test.vkclient;
 
 import android.content.Context;
-import android.content.Intent;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.support.v4.app.ListFragment;
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
 import android.widget.TextView;
-
 import com.perm.kate.api.Api;
 import com.perm.kate.api.Message;
 import com.perm.kate.api.User;
-
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Set;
@@ -85,6 +81,7 @@ public class DialogStatsFragment extends ListFragment {
             for (Message message : dialogs) {
                 if (message.title.equals("...")) {
                     ids.add(message.uid);
+                    mStrings.add(message.body);
                 }
             }
             users = mApi.getProfiles(ids, null, "photo_100", null, null, null);
@@ -109,7 +106,6 @@ public class DialogStatsFragment extends ListFragment {
         }
         for (Message message : dialogs) {
             mIds.add(message.uid);
-            mStrings.add(message.body);
         }
         return dialogs;
     }
